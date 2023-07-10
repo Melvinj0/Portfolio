@@ -1,0 +1,251 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0 200px;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(224, 222, 241);
+}
+main {
+    padding-left: 30px
+}
+
+
+.full__page {
+    background-color:rgb(207, 207, 228) ;
+    box-shadow: 5px 0px 10px 10px  rgb(56, 56, 68);
+
+}
+
+
+.navbar__items {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: rgb(65, 65, 218);
+    height: 40px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding: 30px;
+}
+
+.menu li a, .name{
+    text-decoration: none; 
+    color: aliceblue;
+    position: relative;   
+}
+
+.menu li a:hover, .name:hover {  
+    text-transform: uppercase;
+}
+
+.main__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__data {
+    font-size: 60px;
+}
+
+.main__data span {
+    color: rgb(65, 65, 218);
+}
+
+.image1 {
+    width: 40%;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+.main__button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(65, 65, 218);
+    border-radius: 10px;
+    border: none;
+    color: antiquewhite;
+    transition: 0.4s;
+}
+
+.main__button:hover {
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 0;
+}
+
+
+
+.main__icons {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.headings h1 {
+text-align: center;
+}
+
+.image2 {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.about__data {
+    display: flex;
+}
+
+.about__head {
+    font-size: 40px;
+    color: rgb(65, 65, 218);
+}
+
+.about__description {
+    font-size: 50px;
+    text-align: justify;
+    padding-left: 30px;
+}
+
+.about__description2 {
+    /* display: flex; */
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.skills__container {
+    width: 95%;
+    border: 3px solid white;
+    border-radius: 15px;
+    height: 60px;
+    box-shadow: 5px 5px 10px black;
+    background-image: linear-gradient(to right, rgb(185, 182, 229) , rgb(217, 213, 228));
+}
+
+.skill__data {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.percentage {
+    font-size: 25px;
+    padding-right: 40px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.skill__line1 {
+    display: block;
+    height: 4px;
+    background-color: blue;
+    width:70% ;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.skill__line2 {
+    display: block;
+    height: 4px;
+    background-color: blue;
+    width:58% ;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.skill__line3 {
+    display: block;
+    height: 4px;
+    background-color: blue;
+    width:55% ;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.images__work {
+    width: 100%;
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.work__img {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: 28px;
+    border-radius: 30px;
+}
+
+
+.inputs{
+    display: block;
+    margin: 30px;
+    width: 40%;
+    height: 40px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border: solid 1px rgb(65, 65, 218);
+}
+
+.inputs_area {
+    display: block;
+    margin: 30px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border: solid 1px rgb(65, 65, 218);
+}
+
+.submit {
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.submit__button{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__social {
+    margin-bottom: 2rem;
+  }
+  
+  .footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 1rem;
+  }
+
+  .footer__container {
+    background-color: rgb(65, 65, 218);
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    height:140px
+  }
+
+  .header__name {
+    padding-top: 10px;
+  }
+
+  .footer__copy {
+    font-size: .75rem;
+  }
+  
