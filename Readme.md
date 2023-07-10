@@ -1,1 +1,0 @@
-This is a simple Portfolio webpage using html and css only. 
